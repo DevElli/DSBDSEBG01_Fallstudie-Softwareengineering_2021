@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T14:30:05.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="RJbGpqmC5AAcOrjXhacP" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-16T14:33:27.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="MhJdE1XlfsTQmc59Gqkx" version="14.6.13" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="JavaClasses">
     <mxGraphModel dx="1758" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -69,8 +69,8 @@
         <mxCell id="Npvr-rEOM_4_dzUnbw55-24" value="(0,N) im Artikelkatalog von" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="140" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-25" value="Artikel von (1,N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="290" width="150" height="20" as="geometry" />
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-25" value="Artikel von (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="310" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Npvr-rEOM_4_dzUnbw55-26" value="besteht aus(1, N)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="310" width="120" height="20" as="geometry" />
@@ -83,6 +83,12 @@
         </mxCell>
         <mxCell id="Npvr-rEOM_4_dzUnbw55-29" value="Bestellt bei (1,N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="390" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-30" value="(1,1) gehört zu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="445" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-31" value="gehört zu&amp;nbsp; (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="520" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
