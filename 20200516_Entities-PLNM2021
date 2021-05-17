@@ -1,34 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T17:39:25.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="BGeKmOH4KiAhyoJ20TIG" version="14.6.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-17T08:19:44.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="v85AKpRq56Nc_AUozfQf" version="14.6.13" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Entity Relation">
-    <mxGraphModel dx="2512" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Npvr-rEOM_4_dzUnbw55-5" target="Npvr-rEOM_4_dzUnbw55-14">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="Npvr-rEOM_4_dzUnbw55-5" target="Npvr-rEOM_4_dzUnbw55-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-5" value="Bestellung" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-5" value="Bestellung" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="350" y="340" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-6" value="+ Menge&#xa;+ Bestelldatum&#xa;+ Lieferdatum&#xa;+ Lieferadresse" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Npvr-rEOM_4_dzUnbw55-5">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-6" value="+ Menge&#xa;+ Bestelldatum&#xa;+ Lieferdatum&#xa;+ Lieferadresse" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Npvr-rEOM_4_dzUnbw55-5" vertex="1">
           <mxGeometry y="30" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Npvr-rEOM_4_dzUnbw55-7" target="Npvr-rEOM_4_dzUnbw55-12">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="Npvr-rEOM_4_dzUnbw55-7" target="Npvr-rEOM_4_dzUnbw55-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-7" value="Zahlung" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-7" value="Zahlung" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="350" y="540" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-8" value="+ Zahlungsart&#xa;+ Zahlungsdetails" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Npvr-rEOM_4_dzUnbw55-7">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-8" value="+ Zahlungsart&#xa;+ Zahlungsdetails" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Npvr-rEOM_4_dzUnbw55-7" vertex="1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-9" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-9" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="700" y="335" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-10" value="+ Vorname&#xa;+ Nachname&#xa;+ Geburtsdatum&#xa;+ Rechnungsanschrift&#xa;+ Lieferanschrift" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Npvr-rEOM_4_dzUnbw55-9">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-10" value="+ Vorname&#xa;+ Nachname&#xa;+ Geburtsdatum&#xa;+ Rechnungsanschrift&#xa;+ Lieferanschrift" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Npvr-rEOM_4_dzUnbw55-9" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Npvr-rEOM_4_dzUnbw55-11" target="Npvr-rEOM_4_dzUnbw55-14">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Npvr-rEOM_4_dzUnbw55-11" target="Npvr-rEOM_4_dzUnbw55-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="110" y="168" />
@@ -36,73 +36,73 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-11" value="Mandant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-11" value="Mandant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-60" y="335" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-12" value="+ Firma&#xa;+ Rechnungsanschrift&#xa;+ Lieferanschrift&#xa;+ Anschrift d. Firmensitzes&#xa;+ GLN-Nr.&#xa;+ USt.-ID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Npvr-rEOM_4_dzUnbw55-11">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-12" value="+ Firma&#xa;+ Rechnungsanschrift&#xa;+ Lieferanschrift&#xa;+ Anschrift d. Firmensitzes&#xa;+ GLN-Nr.&#xa;+ USt.-ID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Npvr-rEOM_4_dzUnbw55-11" vertex="1">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-13" value="Artikel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-13" value="Artikel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="350" y="120" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-14" value="+ Artikelname&#xa;+ Artikelnummer&#xa;+ Artikelbeschreibung&#xa;+ Preis" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Npvr-rEOM_4_dzUnbw55-13">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-14" value="+ Artikelname&#xa;+ Artikelnummer&#xa;+ Artikelbeschreibung&#xa;+ Preis" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Npvr-rEOM_4_dzUnbw55-13" vertex="1">
           <mxGeometry y="30" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Npvr-rEOM_4_dzUnbw55-12" target="Npvr-rEOM_4_dzUnbw55-5">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="Npvr-rEOM_4_dzUnbw55-12" target="Npvr-rEOM_4_dzUnbw55-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Npvr-rEOM_4_dzUnbw55-10" target="Npvr-rEOM_4_dzUnbw55-6">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="Npvr-rEOM_4_dzUnbw55-10" target="Npvr-rEOM_4_dzUnbw55-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Npvr-rEOM_4_dzUnbw55-10" target="Npvr-rEOM_4_dzUnbw55-8">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="Npvr-rEOM_4_dzUnbw55-10" target="Npvr-rEOM_4_dzUnbw55-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Npvr-rEOM_4_dzUnbw55-6" target="Npvr-rEOM_4_dzUnbw55-7">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="Npvr-rEOM_4_dzUnbw55-6" target="Npvr-rEOM_4_dzUnbw55-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-22" value="(1, N) aufgegeben von" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-22" value="(1, N) aufgegeben von" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="370" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-23" value="Bestellung von (0,N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-23" value="Bestellung von (0,N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="390" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-24" value="(1, 1) im Artikelkatalog von" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-24" value="(1, 1) im Artikelkatalog von" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="140" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-25" value="Artikel von (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-25" value="Artikel von (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="310" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-26" value="besteht aus(1, N)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-26" value="besteht aus(1, N)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="425" y="310" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-27" value="(1,N) erfasst in&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-27" value="(1,N) erfasst in&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="230" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-28" value="(0,N) bearbeitet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-28" value="(0,N) bearbeitet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="370" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-29" value="Bestellt bei (1,N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-29" value="Bestellt bei (1,N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="390" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-30" value="(1,1) gehört zu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-30" value="(1,1) gehört zu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="405" y="445" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-31" value="gehört zu&amp;nbsp; (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-31" value="gehört zu&amp;nbsp; (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="520" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-32" value="( MIN , MAX )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-32" value="( MIN , MAX )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="100" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-33" value="(0;N) gibt auf" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-33" value="(0;N) gibt auf" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="770" y="455" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-34" value="(1,1) Zahlung von" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-34" value="(1,1) Zahlung von" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="550" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-35" value="(0,N) empfängt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-35" value="(0,N) empfängt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="475" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Npvr-rEOM_4_dzUnbw55-36" value="Gerichtet an (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Npvr-rEOM_4_dzUnbw55-36" value="Gerichtet an (1,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="580" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
@@ -408,6 +408,14 @@
       <root>
         <mxCell id="FAlMy2x6-PEAjc8kJlue-0" />
         <mxCell id="FAlMy2x6-PEAjc8kJlue-1" parent="FAlMy2x6-PEAjc8kJlue-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_yoFGTQQ3hUGEwrIzNQc" name="Lösungsmodell v0.1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="Z5qOlp1kCJs_ZeNef3hw-0" />
+        <mxCell id="Z5qOlp1kCJs_ZeNef3hw-1" parent="Z5qOlp1kCJs_ZeNef3hw-0" />
       </root>
     </mxGraphModel>
   </diagram>
