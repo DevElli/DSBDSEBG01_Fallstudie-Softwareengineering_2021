@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T23:53:39.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="eCeo7u-Gc_BJGbjlx8qG" version="14.7.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-07T23:55:04.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="QjgBFt3b2ONz5WLpTsl6" version="14.7.6" type="github" pages="7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Entity Relation">
     <mxGraphModel dx="2272" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -610,8 +610,26 @@
         <mxCell id="wjO_jtKHg7r3zODwmGk3-13" value="XOR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
           <mxGeometry x="210" y="205" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Dosxm62MeRZiImC9uzyT-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="bpvdhXBy2WgrOtaXMt3W-1" source="qs8eiwkAIXTsN1S3s8Li-1" target="Dosxm62MeRZiImC9uzyT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qs8eiwkAIXTsN1S3s8Li-1" value="Order.dbExport()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
           <mxGeometry x="60" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dosxm62MeRZiImC9uzyT-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="bpvdhXBy2WgrOtaXMt3W-1" source="Dosxm62MeRZiImC9uzyT-5" target="Dosxm62MeRZiImC9uzyT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dosxm62MeRZiImC9uzyT-5" value="Bestellung an Datenbank übermittelt" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
+          <mxGeometry x="60" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dosxm62MeRZiImC9uzyT-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="bpvdhXBy2WgrOtaXMt3W-1" source="Dosxm62MeRZiImC9uzyT-7" target="Dosxm62MeRZiImC9uzyT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dosxm62MeRZiImC9uzyT-7" value="Order.success()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
+          <mxGeometry x="60" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dosxm62MeRZiImC9uzyT-9" value="Bestellung erfolgreich" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
+          <mxGeometry x="60" y="640" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
