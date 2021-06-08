@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T00:05:33.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="oBrJgMM_gjRpkHIpxOAp" version="14.7.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-08T00:06:03.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="3jqPGhEWDOT76K-MvYJJ" version="14.7.6" type="github" pages="7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Entity Relation">
     <mxGraphModel dx="2272" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -658,13 +658,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gq-oP4e-7bJ3V4iqMaha-16" value="nicht Verfügabre Artikel sind angezeigt" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
-          <mxGeometry x="845" y="-50" width="120" height="80" as="geometry" />
+          <mxGeometry x="845" y="-50" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gq-oP4e-7bJ3V4iqMaha-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="bpvdhXBy2WgrOtaXMt3W-1" source="Gq-oP4e-7bJ3V4iqMaha-17" target="Gq-oP4e-7bJ3V4iqMaha-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gq-oP4e-7bJ3V4iqMaha-17" value="Abfrage:&lt;br&gt;Trotzdem bestellen?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
-          <mxGeometry x="985" y="-40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gq-oP4e-7bJ3V4iqMaha-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="bpvdhXBy2WgrOtaXMt3W-1" source="Gq-oP4e-7bJ3V4iqMaha-21" target="Gq-oP4e-7bJ3V4iqMaha-22">
           <mxGeometry relative="1" as="geometry" />
@@ -674,6 +674,9 @@
         </mxCell>
         <mxCell id="Gq-oP4e-7bJ3V4iqMaha-21" value="XOR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
           <mxGeometry x="1150" y="-35" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq-oP4e-7bJ3V4iqMaha-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="bpvdhXBy2WgrOtaXMt3W-1" source="Gq-oP4e-7bJ3V4iqMaha-22" target="Gq-oP4e-7bJ3V4iqMaha-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gq-oP4e-7bJ3V4iqMaha-22" value="UserInput: Nein" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bpvdhXBy2WgrOtaXMt3W-1">
           <mxGeometry x="1132.5" y="-120" width="85" height="50" as="geometry" />
