@@ -8,6 +8,13 @@ public abstract class PersonAbstract {
 	private String lastName;
 	private Date dateOfBirth;
 	
+	// CONSTRUCTOR
+	public PersonAbstract(String firstName, String lastName, Date dateOfBirth) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dateOfBirth = dateOfBirth;
+	}
+	
 //GETTER & SETTER
 	public String getFirstName() {
 		return firstName;

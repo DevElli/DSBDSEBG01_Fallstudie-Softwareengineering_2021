@@ -1,22 +1,30 @@
 package userHandler;
 
+import helpers.ChoiceSelector;
+import helpers.Date;
+
 public class Administrator extends PersonAbstract {
 
-	private int adminId = 1;
-	private String adminName = "Supervisor";
-	private String adminPassword ="Sommer2021!";
-	private int adminPin = 1234;
+	private int adminId;
+	private String adminName;
+	private String adminPassword;
+	private int adminPin;
 	
 	// COMSTRUCTOR
-	public Administrator(int adminId, String adminName, String adminPassword, int adminPin) {
-		this.adminId = adminId;
+	public Administrator(String firstName, String lastName, Date dateOfBirth, String adminName, String adminPassword, int adminPin) {
+		super(firstName, lastName, dateOfBirth);
 		this.adminName = adminName;
 		this.adminPassword = adminPassword;
 		this.adminPin = adminPin;
 	}
 	
+	ChoiceSelector choices = new ChoiceSelector();
+	
 	// ADMIN Functions
 	public Client createClient() {
+		String[] client = choices.clientCreation(); // speichert Input in einem Array
+		// Array wird ausgelesen und entsprechend in den Konstruktor übertragen
+		
 		return new Client();
 	}
 	
@@ -24,6 +32,7 @@ public class Administrator extends PersonAbstract {
 		return new Customer();
 	}
 	
+
 	// GETTER & SETTER
 	public int getAdminId() {
 		return adminId;
