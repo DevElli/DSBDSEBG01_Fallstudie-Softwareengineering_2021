@@ -6,20 +6,18 @@ import helpers.Adress;
 public abstract class UserAbstract extends PersonAbstract{
 
 	private String userName;
-	private String password;
-	private static Integer counter;
+	private String password;;
 	
 	// CONSTRUCTOR
 	public UserAbstract(String firstName, String lastName, Date dateOfBirth, String userName, String password) {
 		super(firstName, lastName, dateOfBirth);
 		this.userName = userName;
 		this.password = password;
+		counter++;
 	}
 	
-	//METHDS
-	public String generateId() {
-		return counter.toString();
-	}
+	//METHODS
+
 
 	// GETTER & SETTER
 	public String getUserName() {
@@ -34,6 +32,6 @@ public abstract class UserAbstract extends PersonAbstract{
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
+
 	
 }
