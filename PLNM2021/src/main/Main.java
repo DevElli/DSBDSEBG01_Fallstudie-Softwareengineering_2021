@@ -7,27 +7,40 @@ import helpers.ChoiceSelector;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		// datenbankzugriff herstellen 
 		//INITIALIZE DB
 			// ClientDaten
 			// Artikelkatalog(e)
 			// CustomerDaten
-		
-		// INITIALIZE Modules
-			//> Registration registration = new Registration()
-			//> Login login = new Login()
 			
-		// INiTIALIZE SELECTION & SCANNER
+		// INITIALIZE SELECTION
 		ChoiceSelector select = new ChoiceSelector();
-		Scanner scanner = new Scanner(System.in);
+		
+		// INITIALIZE MODULES
+			// registration
+			// login
+			// 
+		
 		/////////////////////////////////////////////////
 		
-		// SELECTION
-		 //> Register
-		 //> Login
-		 //> Exit
+		int choiceWelcome = select.welcome(); // liefert Nummer für den Switch-Case zurück
+		
+		switch(choiceWelcome) {
+			case 1:int choiceRegister = select.registration();
+				switch(choiceRegister) {
+					case 1:;
+						break;
+					case 2:;
+						break;
+					case 3:;
+						break;
+				}
+				break;
+			case 2:;
+				break;
+			case 3:;
+				break;
+		}
 		
 		////////////////////////////////////////////////
 		/// REGISTER 
