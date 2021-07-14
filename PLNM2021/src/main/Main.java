@@ -27,15 +27,15 @@ public class Main {
 		switch(choiceWelcome) {
 			case 1:int choiceRegister = select.registration();
 				switch(choiceRegister) {
-					case 1:;
+					case 1: new Customer();
 						break;
-					case 2:;
+					case 2:new Client();
 						break;
 					case 3:;
 						break;
 				}
 				break;
-			case 2:;
+			case 2: int choiceLogin = select.login();
 				break;
 			case 3:;
 				break;
