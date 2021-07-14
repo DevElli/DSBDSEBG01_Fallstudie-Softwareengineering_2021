@@ -1,6 +1,5 @@
 package main;
 // IMPORTS
-import java.util.Scanner;
 
 import helpers.ChoiceSelector;
 

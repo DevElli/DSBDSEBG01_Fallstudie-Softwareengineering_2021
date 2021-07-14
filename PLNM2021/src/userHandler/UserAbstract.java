@@ -13,11 +13,34 @@ public abstract class UserAbstract extends PersonAbstract{
 		super(firstName, lastName, dateOfBirth);
 		this.userName = userName;
 		this.password = password;
-		counter++;
+	}
+	public UserAbstract() {
+		super();
+		System.out.println("Bitte wählen Sie nun einen Benutzernamen"
+				+">>>");
+		setUserName(scanner.nextLine());
+		//PASSWORD
+		String registerPassword = createPassword();
+		setPassword(registerPassword);
+		
+	}
+	//METHODS
+	
+	private String createPassword() {
+		
+		System.out.println("Bitte geben Sie nun ihr gewünschtes Passwort ein."
+				+"\nEs Muss Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten!");
+		String createdPassword  = scanner.nextLine();
+		
+		
+		return createdPassword;
+	}
+
+	private boolean checkPassword (String password) {
+		boolean isPasswordOkay = false;
+		return  isPasswordOkay;
 	}
 	
-	//METHODS
-
 
 	// GETTER & SETTER
 	public String getUserName() {

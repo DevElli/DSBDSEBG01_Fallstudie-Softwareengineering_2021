@@ -14,7 +14,7 @@ public class ChoiceSelector {
 	
 	//METHODS Communication
 	public String noi() {
-		String s = "Bitte geben Sie die Nummer der gewünschten Aktion ein:";
+		String s = "\nBitte geben Sie die Nummer der gewünschten Aktion ein:";
 		return s;
 	}
 	
@@ -24,16 +24,28 @@ public class ChoiceSelector {
 				+ noi()
 				+ "\n>1< Registrieren"
 				+ "\n>2< Login"
-				+ "\n>3< Exit");	
+				+ "\n>3< Exit"
+				+ "\n>>> ");	
 		int s = scanner.nextInt();
 		return s;
 	}
 	
 	public int registration() {
-		System.out.print("");
+		System.out.print("Welche Nutzergruppe entspricht Ihnen am Besten?"
+				+ noi()
+				+ "\n>1< Ich bin Endkunde"
+				+ "\n>2< Ich bin Händler"
+				+ "\n>3< Exit"
+				+ "\n>>> ");
 		int s = scanner.nextInt();
 		return s;
 	}
+	
+	public int login() {
+		return 1;
+	}
+	
+	
 	//METHODS INTER_CLASS
 	
 	public void adminMenu() {
@@ -47,7 +59,7 @@ public class ChoiceSelector {
 	}
 	
 	public String[] clientCreation() {
-		String[] client;
+		String[] client = new String[5]; // ANPASSEN
 		System.out.print("öajkshdkahsdk");
 		
 		return client;
