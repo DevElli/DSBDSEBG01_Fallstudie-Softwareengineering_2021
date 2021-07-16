@@ -1,16 +1,25 @@
 package userHandler;
 
-import helpers.Date;
+import helpers.*;
+import java.util.Scanner;
 
 public class Client extends UserAbstract implements LoginHandler{
 	
 	private String clientId;
 	private static Integer counter;
+	Scanner scanner = new Scanner(System.in);
 	
 
-	// CONSTRUCTOR
-	public Client(String firstName, String lastName, Date dateOfBirth, String userName, String password) {
+	// CONSTRUCTOR for ADMIN Purposes!
+	public Client(String firstName, String lastName, Date dateOfBirth, String userName, Password password) {
 		super(firstName, lastName, dateOfBirth, userName, password);
+		counter++;
+		clientId = generateId();
+	}
+	
+	//CONSTEUCTOR for UserMenu Use ONLY!
+	public Client() {
+		super();
 		counter++;
 		clientId = generateId();
 	}

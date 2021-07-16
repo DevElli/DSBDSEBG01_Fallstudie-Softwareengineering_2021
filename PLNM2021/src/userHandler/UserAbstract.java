@@ -1,37 +1,61 @@
 package userHandler;
 
-import helpers.Date;
-import helpers.Adress;
+
+import helpers.*;
+import java.util.Scanner;
 
 public abstract class UserAbstract extends PersonAbstract{
+	//SMO
 
 	private String userName;
-	private String password;;
+	private Password password;
 	
-	// CONSTRUCTOR
-	public UserAbstract(String firstName, String lastName, Date dateOfBirth, String userName, String password) {
+	
+	Scanner scanner = new Scanner(System.in);
+	
+//////////////////////////// CONSTRUCTORS START //////////////////////////////////////////////////////////
+	// SMO
+	public UserAbstract(String firstName, String lastName, Date dateOfBirth, String userName, Password password) {
 		super(firstName, lastName, dateOfBirth);
 		this.userName = userName;
 		this.password = password;
-		counter++;
 	}
 	
-	//METHODS
+	public UserAbstract() 
+		{
+			super();
+			System.out.println("Bitte wählen Sie nun einen Benutzernamen"
+					+">>>");
+			setUserName(scanner.nextLine());
+			//PASSWORD
+			Password tempPw = new Password();
+			setPassword(tempPw);
+		
+		}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+///////////////////
+//METHODS START//
+//////////////////
+	
 
-
-	// GETTER & SETTER
+	
+///////////////////////	
+// GETTER & SETTER
+//////////////////////	
+	//SMO
 	public String getUserName() {
-		return userName;
-	}
-	public String getPassword() {
-		return password;
-	}
+			return userName;
+		}
+	public Password getPassword() {
+			return password;
+		}
 	public void setUserName(String userName) {
-		this.userName = userName;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
+			this.userName = userName;
+		}
+	public void setPassword(Password password) {
+			this.password = password;
+		}
 
 	
 }
