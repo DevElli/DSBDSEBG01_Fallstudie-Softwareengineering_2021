@@ -1,6 +1,6 @@
 package userHandler;
 
-import helpers.Date;
+import helpers.*;
 
 public class Customer extends UserAbstract {
 
@@ -8,8 +8,14 @@ public class Customer extends UserAbstract {
 	private static Integer counter;
 
 	// CONSTRUCTOR
-	public Customer(String firstName, String lastName, Date dateOfBirth, String userName, String password) {
+	public Customer(String firstName, String lastName, Date dateOfBirth, String userName, Password password) {
 		super(firstName, lastName, dateOfBirth, userName, password);
+		counter++;
+		customerId = generateId();
+	}
+	
+	public Customer() {
+		super();
 		counter++;
 		customerId = generateId();
 	}

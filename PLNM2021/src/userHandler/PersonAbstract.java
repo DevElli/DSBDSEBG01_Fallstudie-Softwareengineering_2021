@@ -4,21 +4,23 @@ import helpers.Date;
 import java.util.Scanner;
 
 public abstract class PersonAbstract {
+	//SMO
 	
 	private String firstName;
 	private String lastName;
 	private Date dateOfBirth;
 	
 	Scanner scanner= new Scanner(System.in);
-	
+///////////////////////////////////////////////////////////////////////////////////	
 	// CONSTRUCTOR
+	//SMO
 	public PersonAbstract(String firstName, String lastName, Date dateOfBirth) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.dateOfBirth = dateOfBirth;
 	}
 	
-	public PersonAbstract() {
+	public PersonAbstract() { 			// USEER MENU CONSTRUCTER! 
 		System.out.println("Wie lautet Ihr Vorname?"
 				+"\n>>>");
 		setFirstName(scanner.nextLine().trim());
@@ -28,7 +30,7 @@ public abstract class PersonAbstract {
 		setLastName(scanner.nextLine().trim());
 		
 		System.out.println("Wann wurden Sie geboren?"
-		+ "Bitte beachten sie folgendes Format >TT.MM.JJJJ<");
+		+ "\nBitte beachten sie folgendes Format >TT.MM.JJJJ<");
 		String x = scanner.nextLine();
 		String[] s = x.split(".");
 		
@@ -38,6 +40,8 @@ public abstract class PersonAbstract {
 		setDateOfBirth(new Date(t[0],t[1],t[2]));
 	}
 	
+	
+//////////////////	
 //GETTER & SETTER
 	public String getFirstName() {
 		return firstName;

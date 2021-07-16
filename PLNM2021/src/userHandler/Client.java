@@ -1,7 +1,6 @@
 package userHandler;
 
-import helpers.Date;
-import helpers.Adress;
+import helpers.*;
 import java.util.Scanner;
 
 public class Client extends UserAbstract implements LoginHandler{
@@ -12,7 +11,7 @@ public class Client extends UserAbstract implements LoginHandler{
 	
 
 	// CONSTRUCTOR for ADMIN Purposes!
-	public Client(String firstName, String lastName, Date dateOfBirth, String userName, String password) {
+	public Client(String firstName, String lastName, Date dateOfBirth, String userName, Password password) {
 		super(firstName, lastName, dateOfBirth, userName, password);
 		counter++;
 		clientId = generateId();
