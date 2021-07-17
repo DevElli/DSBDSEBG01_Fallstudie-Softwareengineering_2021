@@ -38,7 +38,6 @@ public class RegistrationMenu implements I_Run {
 				break;
 		}
 	};
-		
 	///////////////////////	
 	//HELPERS
 	//SMO

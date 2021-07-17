@@ -32,7 +32,6 @@ public class Main {
 		switch(choiceWelcome) {
 			case 1: registrationMenu.run();
 			break;
-
 			case 2: int choiceLogin = select.login();
 				break;
 			case 3:;
