@@ -1,3 +1,4 @@
+//PACKAGES
 package helpers;
 
 import java.util.Scanner;
@@ -6,18 +7,25 @@ import java.util.Scanner;
 
 public class ChoiceSelector {
 
-	//CONSTRUCTOR
+///////////////////////	
+//CONSTRUCTOR
+//////////////////////
 	public ChoiceSelector() {};
 	
 	//SCANNER
 	Scanner scanner = new Scanner(System.in);
 	
-	//METHODS Communication
+///////////////////
+//METHODS //
+//////////////////
+
+	//STANDARDS
 	public String noi() {
 		String s = "\nBitte geben Sie die Nummer der gewünschten Aktion ein:";
 		return s;
 	}
 	
+	// FIRST USERMENU
 	public int welcome() {
 		System.out.print(
 				"Willkommen bei Ihrer Handelsplattform!"
@@ -29,25 +37,16 @@ public class ChoiceSelector {
 		int s = scanner.nextInt();
 		return s;
 	}
-	
-	public int registration() {
-		System.out.print("Welche Nutzergruppe entspricht Ihnen am Besten?"
-				+ noi()
-				+ "\n>1< Ich bin Endkunde"
-				+ "\n>2< Ich bin Händler"
-				+ "\n>3< Exit"
-				+ "\n>>> ");
-		int s = scanner.nextInt();
-		return s;
-	}
-	
+	// LOGIN - MENU
 	public int login() {
 		return 1;
 	}
 	
 	
-	//METHODS INTER_CLASS
-	
+///////////////////////	
+//HELPERS
+//SMO
+//////////////////////
 	public void adminMenu() {
 		System.out.print("Willkommen im Admin-Bereich unserer Anwendung"
 				+" \nWelche Aktion möchten Sie vornehmen? Bitte geben Sie die Ihrem Wunsch entsprechende Ziffer ein:"
