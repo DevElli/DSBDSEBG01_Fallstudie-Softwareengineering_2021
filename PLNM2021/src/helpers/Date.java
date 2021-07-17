@@ -1,19 +1,26 @@
+//PACKAGES
 package helpers;
 
 public class Date {
-
+///////////////////////	
+//CLASS PARAMETERS
+//////////////////////
 	private int day;
 	private int month;
 	private int year;
 	
-// CONSTRUCTOR	
+///////////////////////	
+//CONSTRUCTOR
+//////////////////////
 	public Date(int day, int month, int year) {
 	this.day = day;
 	this.month = month;
 	this.year = year;
 }
 
-// GETTER & SETTER
+///////////////////////	
+//GETTER & SETTER
+//////////////////////
 	public int getDay() {
 		return day;
 	}

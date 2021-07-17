@@ -1,13 +1,18 @@
+//PACKAGES
 package helpers;
 
 public class Adress {
-	
+///////////////////////	
+//CLASS PARAMETERS
+//////////////////////
 	private String street;
 	private int houseNumber;
 	private int postalcode;
 	private String city;
 
-// CONSTRUCTOR
+///////////////////////	
+//CONSTRUCTOR
+//////////////////////
 	public Adress(String street, int houseNumber, int postalcode, String city) {
 		this.street = street;
 		this.houseNumber = houseNumber;
@@ -15,7 +20,9 @@ public class Adress {
 		this.city = city;
 	}
 	
-// GETTER & SETTER
+///////////////////////	
+//GETTER & SETTER
+//////////////////////
 	public String getStreet() {
 		return street;
 	}
