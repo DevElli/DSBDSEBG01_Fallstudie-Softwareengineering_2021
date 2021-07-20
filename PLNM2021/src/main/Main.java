@@ -4,9 +4,8 @@ package main;
 
 // IMPORTS
 import helpers.*;
+import menuHandler.*;
 import userHandler.*;
-import MenuHandler.*;
-////////
 
 public class Main {
 

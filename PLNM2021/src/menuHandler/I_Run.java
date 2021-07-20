@@ -1,4 +1,4 @@
-package MenuHandler;
+package menuHandler;
 
 public interface I_Run {
 
