@@ -1,5 +1,5 @@
 //PACKAGES
-package MenuHandler;
+package menuHandler;
 
 //IMPORTS
 import helpers.*;
