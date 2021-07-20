@@ -36,6 +36,7 @@ public class Client extends UserAbstract implements LoginHandler{
 		System.out.println("Im Namen welches Unternhemens sind Sie tätig?"
 				+"\n>>>");
 		setCompanyName(scanner.nextLine().trim());
+		// TODO: als CLIENT IO auslagern ggf. für spätere anbindung an App/Webseite
 		counter++;
 		clientId = generateId();
 	}

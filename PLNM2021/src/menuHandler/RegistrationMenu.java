@@ -26,13 +26,9 @@ public class RegistrationMenu implements I_Run {
 		{
 			case 1: 
 				Customer cu = new Customer();
-				// @Emre - Object cu an DB übertragen!! Instanz nur temporär vorhanden. Login soll später über DB-Abgleich passieren - SMO
-				// automatischer Login - ins UserMenu springen
 				break;
 			case 2:
 				Client cl = new Client();
-				// @ Emre - Siehe Kommentar Z. 32! - SMO
-				// automatischer Login - ins UserMenu springen
 				break;
 			case 3:;
 				break;
