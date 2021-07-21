@@ -18,6 +18,7 @@ public class Main {
 			
 		// INITIALIZE SELECTION
 		ChoiceSelector select = new ChoiceSelector();
+		boolean repeat = true;
 		
 		// INITIALIZE MENUES
 			RegistrationMenu registrationMenu = new RegistrationMenu();
@@ -26,17 +27,22 @@ public class Main {
 		
 		/////////////////////////////////////////////////
 		
-		int choiceWelcome = select.welcome(); // liefert Nummer für den Switch-Case zurück
-		
-		switch(choiceWelcome) {
-			case 1: registrationMenu.run();
-			break;
-			case 2: int choiceLogin = select.login();
+		do {
+			
+			int choiceWelcome = select.welcome(); // liefert Nummer für den Switch-Case zurück
+			
+			switch(choiceWelcome) {
+				case 1: registrationMenu.run();
 				break;
-			case 3:;
-				break;
-		}
+				case 2: int choiceLogin = select.login();
+					break;
+				case 3:
+					System.out.println("Auf Wiedersehen!");
+					repeat = false;
+					break;
+			}
 		
+		} while(repeat);
 	}
 
 }
