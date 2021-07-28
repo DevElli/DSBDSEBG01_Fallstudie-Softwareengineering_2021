@@ -29,6 +29,7 @@ public class RegistrationMenu implements I_Run {
 				break;
 			case 2:
 				Client cl = new Client();
+				// TODO: @Emre - hier DB testen :D
 				break;
 			case 3:;
 				break;
