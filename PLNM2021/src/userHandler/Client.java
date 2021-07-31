@@ -4,10 +4,10 @@ package userHandler;
 
 //IMPORTS
 import helpers.*;
-import java.util.Scanner;
+import userHandler.userIO.*;
 ///////////////
 
-public class Client extends UserAbstract implements LoginHandler{
+public class Client extends UserAbstract implements ILogin{
 	//SMO
 ///////////////////////	
 //CLASS PARAMETERS
@@ -15,7 +15,8 @@ public class Client extends UserAbstract implements LoginHandler{
 	private String companyName;
 	private String clientId;
 	private static Integer counter = 0;
-	Scanner scanner = new Scanner(System.in);
+	private ClientIO clIO = new ClientIO();
+	
 
 ///////////////////////	
 //ADMIN - CONSTRUCTOR
@@ -33,10 +34,7 @@ public class Client extends UserAbstract implements LoginHandler{
 //////////////////////
 	public Client() {
 		super();
-		System.out.println("Im Namen welches Unternhemens sind Sie tätig?"
-				+"\n>>>");
-		setCompanyName(scanner.nextLine().trim());
-		// TODO: als CLIENT IO auslagern ggf. für spätere anbindung an App/Webseite - IO KLasse anlegen!
+		setCompanyName(clIO.companyIO());
 		counter++;
 		clientId = generateId();
 	}

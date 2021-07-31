@@ -3,6 +3,7 @@ package userHandler;
 
 //IMPORTS
 import helpers.*;
+import userHandler.userIO.*;
 ////////
 import java.util.Scanner;
 
@@ -15,6 +16,7 @@ public abstract class UserAbstract extends PersonAbstract{
 	private Password password;
 
 	Scanner scanner = new Scanner(System.in);
+	UserIO uIO = new UserIO();
 	
 ///////////////////////	
 //ADMIN - CONSTRUCTOR
@@ -33,10 +35,7 @@ public abstract class UserAbstract extends PersonAbstract{
 	public UserAbstract() 
 		{
 			super();
-			System.out.println("Bitte wählen Sie nun einen Benutzernamen"
-					+">>>");
-			setUserName(scanner.nextLine());
-			//PASSWORD
+			setUserName(uIO.usernameIO());
 			Password tempPw = new Password();
 			setPassword(tempPw);
 		}
