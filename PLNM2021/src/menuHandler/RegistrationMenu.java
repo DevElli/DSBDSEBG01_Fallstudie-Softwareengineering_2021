@@ -23,6 +23,7 @@ public class RegistrationMenu implements I_Run {
 	
 	public void run() 
 	{
+<<<<<<< HEAD
 		do {
 			switch(registrationInput()) 
 			{
@@ -37,6 +38,20 @@ public class RegistrationMenu implements I_Run {
 					break;
 			} 
 		} while(repeat);
+=======
+		switch(registrationInput()) 
+		{
+			case 1: 
+				Customer cu = new Customer();
+				break;
+			case 2:
+				Client cl = new Client();
+				// TODO: @Emre - hier DB testen :D
+				break;
+			case 3:;
+				break;
+		}
+>>>>>>> main
 	};
 	///////////////////////	
 	//HELPERS

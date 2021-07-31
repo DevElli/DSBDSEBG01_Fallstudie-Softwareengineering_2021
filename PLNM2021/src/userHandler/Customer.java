@@ -2,7 +2,7 @@ package userHandler;
 
 import helpers.*;
 
-public class Customer extends UserAbstract {
+public class Customer extends UserAbstract implements ILogin{
 ///////////////////////	
 //CLASS PARAMETERS
 //////////////////////

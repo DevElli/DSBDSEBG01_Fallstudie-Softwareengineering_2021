@@ -1,4 +1,4 @@
-package checkout;
+package checkoutObjects;
 
 public class PaymentMethod {
 

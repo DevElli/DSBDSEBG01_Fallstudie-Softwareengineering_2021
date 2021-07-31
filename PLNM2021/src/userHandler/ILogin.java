@@ -5,7 +5,7 @@ package userHandler;
 //IMPORTS
 //>
 ////////
-public interface LoginHandler {
+public interface ILogin {
 
 	public void login();
 	public void logout();

@@ -1,6 +1,5 @@
 //PACKAGES
 package main;
-////////
 
 // IMPORTS
 import helpers.*;
@@ -10,11 +9,6 @@ import userHandler.*;
 public class Main {
 
 	public static void main(String[] args) {
-// @ Emre - Dein Metier - SMO ;)
-		//INITIALIZE DB
-			// ClientDaten
-			// Artikelkatalog(e)
-			// CustomerDaten
 			
 		// INITIALIZE SELECTION
 		ChoiceSelector select = new ChoiceSelector();
@@ -23,18 +17,15 @@ public class Main {
 		// INITIALIZE MENUES
 			RegistrationMenu registrationMenu = new RegistrationMenu();
 			LoginMenu loginMenu = new LoginMenu();
-
-		
-		/////////////////////////////////////////////////
 		
 		do {
 			
-			int choiceWelcome = select.welcome(); // liefert Nummer für den Switch-Case zurück
+			int choiceWelcome = select.welcome(); 
 			
 			switch(choiceWelcome) {
 				case 1: registrationMenu.run();
-				break;
-				case 2: int choiceLogin = select.login();
+					break;
+				case 2: loginMenu.run();
 					break;
 				case 3:
 					System.out.println("Auf Wiedersehen!");
@@ -44,5 +35,4 @@ public class Main {
 		
 		} while(repeat);
 	}
-
 }
