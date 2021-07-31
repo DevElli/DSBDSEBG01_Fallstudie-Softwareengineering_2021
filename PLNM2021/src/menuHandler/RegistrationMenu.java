@@ -11,7 +11,7 @@ public class RegistrationMenu implements I_Run {
 	// INITIALIZE 
 	ChoiceSelector select = new ChoiceSelector();
 	Scanner scanner = new Scanner (System.in);
-
+	private boolean repeat = true;
 	///////////////////////	
 	//CONSTRUCTOR
 	//////////////////////
@@ -20,8 +20,25 @@ public class RegistrationMenu implements I_Run {
 	///////////////////
 	//METHODS //
 	//////////////////	
+	
 	public void run() 
 	{
+<<<<<<< HEAD
+		do {
+			switch(registrationInput()) 
+			{
+				case 1: 
+					Customer cu = new Customer();
+					break;
+				case 2:
+					Client cl = new Client();
+					break;
+				case 3:;
+				repeat = false;
+					break;
+			} 
+		} while(repeat);
+=======
 		switch(registrationInput()) 
 		{
 			case 1: 
@@ -34,6 +51,7 @@ public class RegistrationMenu implements I_Run {
 			case 3:;
 				break;
 		}
+>>>>>>> main
 	};
 	///////////////////////	
 	//HELPERS
@@ -46,7 +64,7 @@ public class RegistrationMenu implements I_Run {
 				+ select.noi()
 				+ "\n>1< Ich bin Endkunde"
 				+ "\n>2< Ich bin Händler"
-				+ "\n>3< Exit"
+				+ "\n>3< Zurück"
 				+ "\n>>> ");
 		int s = scanner.nextInt();
 		return s;
