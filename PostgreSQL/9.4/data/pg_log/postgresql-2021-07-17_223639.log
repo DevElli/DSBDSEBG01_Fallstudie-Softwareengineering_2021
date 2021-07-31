@@ -1,0 +1,10 @@
+2021-07-17 22:36:39 CEST LOG:  Datenbanksystem wurde am 2021-07-17 22:26:35 CEST heruntergefahren
+2021-07-17 22:36:39 CEST LOG:  MultiXact-Member-Wraparound-Schutz ist jetzt aktiviert
+2021-07-17 22:36:39 CEST LOG:  Datenbanksystem ist bereit, um Verbindungen anzunehmen
+2021-07-17 22:36:39 CEST LOG:  Autovacuum-Launcher startet
+2021-07-17 22:36:47 CEST LOG:  SIGHUP empfangen, Konfigurationsdateien werden neu geladen
+2021-07-17 22:36:55 CEST LOG:  schnelles Herunterfahren verlangt
+2021-07-17 22:36:55 CEST LOG:  etwaige aktive Transaktionen werden abgebrochen
+2021-07-17 22:36:55 CEST LOG:  Autovacuum-Launcher fährt herunter
+2021-07-17 22:36:56 CEST LOG:  fahre herunter
+2021-07-17 22:36:56 CEST LOG:  Datenbanksystem ist heruntergefahren
