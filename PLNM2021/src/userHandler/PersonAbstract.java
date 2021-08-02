@@ -31,7 +31,8 @@ public abstract class PersonAbstract {
 //SMO
 //////////////////////
 	
-	public PersonAbstract() { 			
+	public PersonAbstract() 
+	{ 			
 		setFirstName(pIO.firstNameIO());
 		setLastName(pIO.lastNameIO());
 		setDateOfBirth(pIO.dobIO());

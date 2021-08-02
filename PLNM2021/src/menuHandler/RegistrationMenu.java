@@ -23,35 +23,22 @@ public class RegistrationMenu implements I_Run {
 	
 	public void run() 
 	{
-<<<<<<< HEAD
 		do {
 			switch(registrationInput()) 
 			{
 				case 1: 
 					Customer cu = new Customer();
+					repeat = false;
 					break;
 				case 2:
 					Client cl = new Client();
+					repeat = false;
 					break;
 				case 3:;
-				repeat = false;
+					repeat = false;
 					break;
 			} 
 		} while(repeat);
-=======
-		switch(registrationInput()) 
-		{
-			case 1: 
-				Customer cu = new Customer();
-				break;
-			case 2:
-				Client cl = new Client();
-				// TODO: @Emre - hier DB testen :D
-				break;
-			case 3:;
-				break;
-		}
->>>>>>> main
 	};
 	///////////////////////	
 	//HELPERS

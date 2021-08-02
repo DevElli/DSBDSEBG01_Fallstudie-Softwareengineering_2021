@@ -32,7 +32,8 @@ public class Client extends UserAbstract implements ILogin{
 //INPUT - CONSTRUCTOR
 	//SMO
 //////////////////////
-	public Client() {
+	public Client() 
+	{
 		super();
 		setCompanyName(clIO.companyIO());
 		counter++;
