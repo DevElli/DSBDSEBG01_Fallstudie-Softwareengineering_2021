@@ -7,26 +7,23 @@ public class PersonIO {
 
 	public PersonIO() {}
 	
+	Scanner scanner = new Scanner (System.in);
+	
 	public String firstNameIO() {
-		Scanner scanner = new Scanner(System.in);
 		System.out.println("Wie lautet Ihr Vorname?"
 				+"\n>>>");
 		String s = scanner.nextLine().trim();
-		scanner.close();
 		return s;
 	}
 	
 	public String lastNameIO() {
-		Scanner scanner = new Scanner(System.in);
 		System.out.println(" Wie lautet Ihr Nachname?"
 				+ "\n>>>");
 		String s = scanner.nextLine().trim();
-		scanner.close();
 		return s;
 	}
 	
 	public Date dobIO() {
-		Scanner scanner = new Scanner(System.in);
 		System.out.println("Wann wurden Sie geboren?"
 				+ "\nBitte beachten sie folgendes Format >TT-MM-JJJJ<");
 				String dobInput = scanner.nextLine();
@@ -37,7 +34,6 @@ public class PersonIO {
 				{
 					dobToInt[i] = Integer.parseInt(dobArr[i]);
 				}		
-		scanner.close();
 		return new Date(dobToInt[0],dobToInt[1],dobToInt[2]);
 	}
 	

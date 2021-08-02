@@ -1,17 +1,10 @@
 // PACKAGES
 package menuHandler;
 
-<<<<<<< HEAD
+
 //IMPORTS
 import helpers.*;
 import java.util.*;
-=======
-public class LoginMenu implements I_Run {
-	
-	public LoginMenu() {}
-	
-	public void run() {}
->>>>>>> main
 
 public class LoginMenu implements I_Run {
 	
