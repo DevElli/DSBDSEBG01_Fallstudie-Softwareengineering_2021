@@ -28,10 +28,12 @@ public class RegistrationMenu implements I_Run {
 			{
 				case 1: 
 					Customer cu = new Customer();
+					System.out.println(cu.Db_Dummy()); // TODO: change to REAL DB Functions
 					repeat = false;
 					break;
 				case 2:
 					Client cl = new Client();
+					System.out.println(cl.Db_Dummy()); // TODO: change to REAL DB Functions
 					repeat = false;
 					break;
 				case 3:;
@@ -56,5 +58,9 @@ public class RegistrationMenu implements I_Run {
 		int s = scanner.nextInt();
 		return s;
 	}	
+	
+	public String registrationSuccess() {
+		return "Vielen Dank! Ihre Registrierung wurde erfolgreich abgeschlossen. Sie können sich jetzt einloggen.";
+	}
 	
 }
