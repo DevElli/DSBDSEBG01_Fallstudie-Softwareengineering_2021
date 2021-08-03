@@ -1,11 +1,24 @@
-package DatabaseCreation;
-
+package databaseconnection;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * Klasse zur Vereinfachung der Darstellung der Ergebnisse von SQL-Abfragen.
+ * 
+ * Die Klasse dient dazu, den Einstieg in die Datenbankprogrammierung zu erleichtern.  
+ * Schauen Sie sich gern an, wie Records die verschiedenen Anforderungen löst. 
+ * Das Ziel ist, dass Sie sich mit der Zeit, von der Hilfsklasse Records lösen. 
+ * Nicht alle Anforderungen, die im Rahmen der Datenbankentwicklung zu lösen sind,
+ * lassen sich aktuell mit der Klasse Records lösen.
+ * 
+ * @author Kuhlen
+ * @version 1.0
+ *
+ */
 public class Records {
+	
 	private List<HashMap<String, String>> values;
 	private List<String> columns;
 	public Records(List<String> columns) {
@@ -83,6 +96,4 @@ public class Records {
 	public void setColumns(List<String> columns) {
 		this.columns = columns;
 	}
-}
-
 }
