@@ -20,18 +20,18 @@ public class DatenVerwaltung {
 		// Sofern Sie den Code mehrmals ausführen, wird mehrmals versucht eine Tabelle anzulegen. Dies scheitert, wenn eine
 		// Tabelle mit demselben Namen bereits existiert. Aus diesem Grund löschen wir die Tabelle zunächst.
 		myDB.executeSQL("DROP TABLE Kundenstamm");
+				// Dieser Befehl legt eine Tabelle Fahrzeuge mit bestimmten Spalten an.
+		myDB.executeSQL("CREATE TABLE Kundenstamm(Vorname VARCHAR PRIMARY KEY, Nachname VARCHAR, Rolle VARCHAR, Geburtsdatum VARCHAR, Adresse VARCHAR, Username VARCHAR, Passwort VARCHAR, Kontonummer DOUBLE, Pin VARCHAR );");
 		myDB.executeSQL("DROP TABLE Artikelstamm");
-		// Dieser Befehl legt eine Tabelle Fahrzeuge mit bestimmten Spalten an.
-		myDB.executeSQL("CREATE TABLE Kundenstamm(Vorname VARCHAR PRIMARY KEY, Nachname VARCHAR, Rolle VARCHAR, Geburtsdatum DOUBLE, Adresse VARCHAR, Username VARCHAR, Passwort VARCHAR, Kontonummer DOUBLE, Pin DOUBLE );");
 		myDB.executeSQL("CREATE TABLE Artikelstamm(Artikelnummer DOUBLE, Artikelname VARCHAR, Artikelmenge DOUBLE);");
 
 		// Diese Befehle fügen Datensätze in die Beispieltabelle ein
-		myDB.executeSQL("INSERT INTO FAHRZEUGE VALUES(1, 'HH XY 123', 'BMW 3er', 56000);");
-		myDB.executeSQL("INSERT INTO FAHRZEUGE VALUES(2, 'HH AB 4711', 'Citroen C3', 85000);");
-		myDB.executeSQL("INSERT INTO FAHRZEUGE VALUES(3, 'HH AB 4711', 'Chrysler 300c', 150000);");
+		myDB.executeSQL("INSERT INTO Kundenstamm VALUES('Max', 'Mustermann', 'Kunde', 04/07/2000, 'Musterstraße 2', 'max123', 'password', 123456789, 1234);");
+		myDB.executeSQL("INSERT INTO Kundenstamm VALUES(2, 'HH AB 4711', 'Citroen C3', 85000);");
+		myDB.executeSQL("INSERT INTO Kundenstamm VALUES(3, 'HH AB 4711', 'Chrysler 300c', 150000);");
 		
 		// Nun fragen wir die eingefügten Daten ab. 
-		Records select = myDB.select("SELECT * FROM FAHRZEUGE");
+		Records select = myDB.select("SELECT * FROM Kundenstamm");
 		
 		// Das Ergebnis der Abfrage wird in der Konsole ausgegeben.
 		select.print();
