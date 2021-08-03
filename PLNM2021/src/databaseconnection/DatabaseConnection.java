@@ -1,4 +1,4 @@
-package DatabaseCreation;
+package databaseconnection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,11 +9,23 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-
-
-public class Creation {
-	private Connection dbConnection;
+/**
+ * Klasse zur Vereinfachung einer Datenbankanbindung. 
+ * 
+ * Die Klasse dient dazu, den Einstieg in die Datenbankprogrammierung zu erleichtern.  
+ * Schauen Sie sich gern an, wie DatabaseConnection die verschiedenen Anforderungen löst. 
+ * Das Ziel ist, dass Sie sich mit der Zeit, von der Hilfsklasse DatabaseConnection lösen. 
+ * Nicht alle Anforderungen, die im Rahmen der Datenbankentwicklung zu lösen sind,
+ * lassen sich aktuell mit der Klasse DatabaseConnection lösen.
+ * 
+ * @version 1.0
+ * @author Kuhlen
+ *
+ */
+public class DatabaseConnection {
 	
+	private Connection dbConnection;
+		
 	public DatabaseConnection(String driver, String connection, String user, String password) {
 		try {
 			Class.forName(driver);
@@ -87,7 +99,5 @@ public class Creation {
 	}
 	
 	
-
-}
 
 }
