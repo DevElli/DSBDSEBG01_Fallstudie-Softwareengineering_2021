@@ -1,13 +1,16 @@
 package userHandler;
 
 import helpers.*;
+import helpers.Date;
+
+import java.util.*;
 
 public class Customer extends UserAbstract implements ILogin{
 ///////////////////////	
 //CLASS PARAMETERS
 //////////////////////
 	private String customerId;
-	private static Integer counter;
+	private static Integer counter = 0;
 
 ///////////////////////	
 //ADMIN - CONSTRUCTOR
@@ -40,12 +43,17 @@ public class Customer extends UserAbstract implements ILogin{
 		return "B" + counter.toString();
 	}
 	
+	public String Db_Dummy() {
+		
+		String str = this.getFirstName()+";"+ this.getLastName()+";" + this.getDateOfBirth().toString()+ ";"+ this.getUserName() +";"+ this.getPassword().toString()
+				+ ";" + this.getCustomerId() +  ";" ;
+		return str;
+	}
+	
 ///////////////////////	
 //GETTER & SETTER
 //////////////////////
 	public String getCustomerId() {
 		return customerId;
 	}
-
-	
 }

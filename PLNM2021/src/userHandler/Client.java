@@ -51,6 +51,15 @@ public class Client extends UserAbstract implements ILogin{
 		return "A" + counter.toString();
 	}
 	
+	
+// FUNKTION NUR ZU TESTZWECKEN!!!!!
+	public String Db_Dummy() {
+		
+		String str = this.getFirstName()+";"+ this.getLastName()+";" + this.getDateOfBirth().toString()+ ";"+ this.getUserName() +";"+ this.getPassword().toString()
+				+ ";" + this.getClientId() +  ";" ;
+		return str;
+	}
+	
 ///////////////////////	
 //GETTER & SETTER
 //////////////////////
