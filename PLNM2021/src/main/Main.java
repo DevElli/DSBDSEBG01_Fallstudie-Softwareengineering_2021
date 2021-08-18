@@ -1,21 +1,22 @@
 //PACKAGES
 package main;
 
-// IMPORTS
-import helpers.*;
-import menuHandler.*;
-import userHandler.*;
+import controller.*;
+import entities.supportEntities.*;
+import model.*;
+import view.*;
 
 public class Main {
 
 	public static void main(String[] args) {
-			
+		
 		// INITIALIZE SELECTION
 		ChoiceSelector select = new ChoiceSelector();
 		boolean repeat = true;
 		
+		
 		// INITIALIZE MENUES
-			RegistrationMenu registrationMenu = new RegistrationMenu();
+		RegistrationControl regControl = new RegistrationControl();
 			LoginMenu loginMenu = new LoginMenu();
 		
 			
@@ -25,8 +26,7 @@ public class Main {
 			int choiceWelcome = select.welcome(); // TODO: Put together with other Menus / create helper Menu
 			
 			switch(choiceWelcome) {
-				case 1: registrationMenu.run();
-						registrationMenu.registrationSuccess();
+				case 1: regControl.run();
 					break;
 				case 2: loginMenu.run();
 					break;
